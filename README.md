@@ -23,7 +23,7 @@ Add the environment variables to your `config/services.php`:
     'recipients' => env('MSGOWL_RECIPIENTS'),
 ],
 ...
-
+```
 
 Add your MsgOwl API Key, Default originator (name or number of sender), and default recipients to your `.env`:
 
