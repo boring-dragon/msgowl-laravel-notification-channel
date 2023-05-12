@@ -1,4 +1,4 @@
-# MsgOwl notification channel for Laravel
+# MsgOwl Notification Channel For Laravel
 
 [![Run PHP Unit Tests](https://github.com/boring-dragon/msgowl-laravel-notification-channel/actions/workflows/test.yml/badge.svg)](https://github.com/boring-dragon/msgowl-laravel-notification-channel/actions/workflows/test.yml)
 
