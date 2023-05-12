@@ -18,7 +18,7 @@ Add the environment variables to your `config/services.php`:
 'msgowl' => [
         'sender_id' => env('MSGOWL_SENDER_ID'),
         'api_key' => env('MSGOWL_API_KEY'),
-         'recipients' => env('MSGOWL_RECIPIENTS'),
+        'recipients' => env('MSGOWL_RECIPIENTS'),
 ],
 ...
 
@@ -28,9 +28,9 @@ Add your Messagebird Access Key, Default originator (name or number of sender), 
 ```php
 // .env
 ...
-MSGOWL_SENDER_ID=
-MSGOWL_API_KEY=
-MSGOWL_RECIPIENTS=
+    MSGOWL_SENDER_ID=
+    MSGOWL_API_KEY=
+    MSGOWL_RECIPIENTS=
 ],
 ...
 ````
@@ -71,6 +71,7 @@ public function routeNotificationForMsgOwl() : string
 {
     return $this->mobile;
 }
+```
 
 
 ## Security
