@@ -53,7 +53,7 @@ class UserApproved extends Notification
         return [MsgOwlChannel::class];
     }
 
-    public function toMessagebird($notifiable)
+    public function toMsgOwl($notifiable)
     {
         return (new MsgOwlMessage("You are approved by the system"));
     }
