@@ -18,14 +18,14 @@ Add the environment variables to your `config/services.php`:
 // config/services.php
 ...
 'msgowl' => [
-        'sender_id' => env('MSGOWL_SENDER_ID'),
-        'api_key' => env('MSGOWL_API_KEY'),
-        'recipients' => env('MSGOWL_RECIPIENTS'),
+    'sender_id' => env('MSGOWL_SENDER_ID'),
+    'api_key' => env('MSGOWL_API_KEY'),
+    'recipients' => env('MSGOWL_RECIPIENTS'),
 ],
 ...
 
 
-Add your Messagebird Access Key, Default originator (name or number of sender), and default recipients to your `.env`:
+Add your MsgOwl API Key, Default originator (name or number of sender), and default recipients to your `.env`:
 
 ```php
 // .env
