@@ -14,7 +14,7 @@ composer require boring-dragon/msgowl-laravel-notification-channel
 
 Add the environment variables to your `config/services.php`:
 
-````php
+```php
 // config/services.php
 ...
 'msgowl' => [
@@ -25,7 +25,7 @@ Add the environment variables to your `config/services.php`:
 ...
 ```
 
-Add your MsgOwl API Key, Default originator (name or number of sender), and default recipients to your `.env`:
+Add your MsgOwl API Key, Default SenderID and default recipients to your `.env`:
 
 ```php
 // .env
