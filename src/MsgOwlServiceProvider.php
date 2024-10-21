@@ -19,7 +19,7 @@ class MsgOwlServiceProvider extends ServiceProvider
                     throw InvalidConfiguration::configurationNotSet();
                 }
 
-                return new MsgOwlClient(new Client(), $config['api_key']);
+                return new MsgOwlClient(new Client, $config['api_key']);
             });
     }
 }

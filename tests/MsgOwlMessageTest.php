@@ -12,7 +12,7 @@ class MsgOwlMessageTest extends TestCase
     /** @test */
     public function it_can_be_instantiated()
     {
-        $message = new MsgOwlMessage();
+        $message = new MsgOwlMessage;
 
         $this->assertInstanceOf(MsgOwlMessage::class, $message);
     }
@@ -41,7 +41,7 @@ class MsgOwlMessageTest extends TestCase
     /** @test */
     public function it_can_set_body()
     {
-        $message = (new MsgOwlMessage())->setBody('Yolo');
+        $message = (new MsgOwlMessage)->setBody('Yolo');
 
         $this->assertEquals('Yolo', $message->body);
     }
@@ -50,7 +50,7 @@ class MsgOwlMessageTest extends TestCase
     public function it_can_set_sender_id()
     {
 
-        $message = (new MsgOwlMessage())->setSenderId('NeverGonnaGiveYouUp');
+        $message = (new MsgOwlMessage)->setSenderId('NeverGonnaGiveYouUp');
 
         $this->assertEquals('NeverGonnaGiveYouUp', $message->sender_id);
     }
@@ -58,7 +58,7 @@ class MsgOwlMessageTest extends TestCase
     /** @test */
     public function it_can_set_recipients_from_array()
     {
-        $message = (new MsgOwlMessage())->setRecipients(['9607777777', '9607777778']);
+        $message = (new MsgOwlMessage)->setRecipients(['9607777777', '9607777778']);
 
         $this->assertEquals('9607777777,9607777778', $message->recipients);
     }
@@ -66,16 +66,16 @@ class MsgOwlMessageTest extends TestCase
     /** @test */
     public function it_can_set_recipients_from_integer()
     {
-        $message = (new MsgOwlMessage())->setRecipients(9607777777);
+        $message = (new MsgOwlMessage)->setRecipients(9607777777);
 
         $this->assertEquals(9607777777, $message->recipients);
     }
 
-       /** @test */
-       public function it_can_set_recipients_from_string()
-       {
-           $message = (new MsgOwlMessage())->setRecipients('9607777777');
+    /** @test */
+    public function it_can_set_recipients_from_string()
+    {
+        $message = (new MsgOwlMessage)->setRecipients('9607777777');
 
-           $this->assertEquals('9607777777', $message->recipients);
-       }
+        $this->assertEquals('9607777777', $message->recipients);
+    }
 }

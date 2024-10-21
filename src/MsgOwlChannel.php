@@ -14,7 +14,7 @@ class MsgOwlChannel
 
     private $dispatcher;
 
-    public function __construct(MsgOwlClient $client, Dispatcher $dispatcher = null)
+    public function __construct(MsgOwlClient $client, ?Dispatcher $dispatcher = null)
     {
         $this->client = $client;
         $this->dispatcher = $dispatcher;
