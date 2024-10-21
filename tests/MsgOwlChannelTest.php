@@ -30,7 +30,7 @@ class MsgOwlChannelTest extends TestCase
         $this->notification = new TestNotification;
         $this->string_notification = new TestStringNotification;
         $this->notifiable = new TestNotifiable;
-        $this->guzzle = Mockery::mock(new Client());
+        $this->guzzle = Mockery::mock(new Client);
         $this->client = Mockery::mock(new MsgOwlClient($this->guzzle, 'test_aabtyuendgdhdshjw'));
         $this->channel = new MsgOwlChannel($this->client);
     }

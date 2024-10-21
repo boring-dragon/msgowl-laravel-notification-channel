@@ -18,7 +18,7 @@ class MsgOwlClientTest extends TestCase
 
     public function setUp(): void
     {
-        $this->guzzle = Mockery::mock(new Client());
+        $this->guzzle = Mockery::mock(new Client);
         $this->client = Mockery::mock(new MsgOwlClient($this->guzzle, 'test_aabtyuendgdhdshjw'));
         $this->message = (new MsgOwlMessage('Message content'))->setSenderId('Jinas')->setRecipients('9607777777');
     }

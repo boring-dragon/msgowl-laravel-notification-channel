@@ -15,7 +15,7 @@ class MsgOwlClient
     /**
      * MsglOwlClient constructor.
      *
-     * @param $api_key string API Key from MsgOwl API
+     * @param  $api_key  string API Key from MsgOwl API
      */
     public function __construct(Client $client, $api_key)
     {
