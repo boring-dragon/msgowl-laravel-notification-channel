@@ -7,7 +7,7 @@
 You can install the package via composer:
 
 ```bash
-composer require boring-dragon/msgowl-laravel-notification-channel
+composer require msgowl/msgowl-laravel-notification-channel
 ```
 
 ## Setting up your MsgOwl Credentials
@@ -83,9 +83,6 @@ public function routeNotificationForMsgOwl() : string
 
 If you discover any security related issues, please email boringdragon98@gmail.com instead of using the issue tracker.
 
-## Credits
-
-- [boring-dragon](https://github.com/boring-dragon)
 
 ## License
 
