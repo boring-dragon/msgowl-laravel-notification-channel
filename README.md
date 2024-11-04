@@ -40,8 +40,8 @@ Add your MsgOwl API Key, Default SenderID and default recipients to your `.env`:
 Now you can use the channel in your `via()` method inside the notification:
 
 ``` php
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlChannel;
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlMessage;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlChannel;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlMessage;
 use Illuminate\Notifications\Notification;
 
 class UserApproved extends Notification
