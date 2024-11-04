@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) Mohamed Jinas <boringdragon98@gmail.com>
+Copyright (c) MSG OWL
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
