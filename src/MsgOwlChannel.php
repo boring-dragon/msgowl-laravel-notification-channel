@@ -2,10 +2,10 @@
 
 namespace MsgOwl\MsgowlLaravelNotificationChannel;
 
-use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Notifications\Events\NotificationFailed;
 use Illuminate\Notifications\Notification;
+use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
 
 class MsgOwlChannel
 {

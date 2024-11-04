@@ -2,9 +2,9 @@
 
 namespace MsgOwl\MsgowlLaravelNotificationChannel;
 
-use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\InvalidConfiguration;
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
+use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\InvalidConfiguration;
 
 class MsgOwlServiceProvider extends ServiceProvider
 {

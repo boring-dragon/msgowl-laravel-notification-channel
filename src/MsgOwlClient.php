@@ -2,9 +2,9 @@
 
 namespace MsgOwl\MsgowlLaravelNotificationChannel;
 
-use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
 use Exception;
 use GuzzleHttp\Client;
+use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
 
 class MsgOwlClient
 {

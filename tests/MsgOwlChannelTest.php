@@ -2,13 +2,13 @@
 
 namespace MsgOwl\MsgowlLaravelNotificationChannel\Test;
 
-use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlChannel;
-use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlClient;
-use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlMessage;
 use GuzzleHttp\Client;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification;
 use Mockery;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlChannel;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlClient;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlMessage;
 use PHPUnit\Framework\TestCase;
 
 class MsgOwlChannelTest extends TestCase
