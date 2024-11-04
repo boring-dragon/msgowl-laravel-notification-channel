@@ -1,5 +1,3 @@
-![cover](cover.png)
-
 [![Run PHP Unit Tests](https://github.com/boring-dragon/msgowl-laravel-notification-channel/actions/workflows/test.yml/badge.svg)](https://github.com/boring-dragon/msgowl-laravel-notification-channel/actions/workflows/test.yml)
 
 ## Installation
