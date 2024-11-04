@@ -79,15 +79,7 @@ public function routeNotificationForMsgOwl() : string
 
 - [ Msg Owl Api Docs ](https://msgowl.com/docs)
 
-## Security
-
-If you discover any security related issues, please email boringdragon98@gmail.com instead of using the issue tracker.
-
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Disclaimer
-
-This package is not in any way officially affiliated with MsgOwl.
