@@ -1,6 +1,6 @@
 <?php
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel\Exceptions;
+namespace MsgOwl\MsgowlLaravelNotificationChannel\Exceptions;
 
 use Exception;
 

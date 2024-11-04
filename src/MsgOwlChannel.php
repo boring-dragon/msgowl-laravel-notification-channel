@@ -1,15 +1,15 @@
 <?php
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel;
+namespace MsgOwl\MsgowlLaravelNotificationChannel;
 
-use BoringDragon\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
+use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Notifications\Events\NotificationFailed;
 use Illuminate\Notifications\Notification;
 
 class MsgOwlChannel
 {
-    /** @var \BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlClient */
+    /** @var \MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlClient */
     protected $client;
 
     private $dispatcher;
@@ -26,7 +26,7 @@ class MsgOwlChannel
      * @param  mixed  $notifiable
      * @return object with response body data if succesful response from API | empty array if not
      *
-     * @throws \BoringDragon\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification
+     * @throws \MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification
      */
     public function send($notifiable, Notification $notification)
     {

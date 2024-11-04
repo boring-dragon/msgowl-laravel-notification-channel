@@ -1,10 +1,10 @@
 <?php
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel\Test;
+namespace MsgOwl\MsgowlLaravelNotificationChannel\Test;
 
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlChannel;
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlClient;
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlMessage;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlChannel;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlClient;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlMessage;
 use GuzzleHttp\Client;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification;

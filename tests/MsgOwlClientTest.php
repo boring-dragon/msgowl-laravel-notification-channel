@@ -1,9 +1,9 @@
 <?php
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel\Test;
+namespace MsgOwl\MsgowlLaravelNotificationChannel\Test;
 
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlClient;
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlMessage;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlClient;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlMessage;
 use GuzzleHttp\Client;
 use Mockery;
 use PHPUnit\Framework\TestCase;

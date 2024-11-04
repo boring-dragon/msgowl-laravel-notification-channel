@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel;
+namespace MsgOwl\MsgowlLaravelNotificationChannel;
 
 class MsgOwlMessage
 {

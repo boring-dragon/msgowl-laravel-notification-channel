@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel\Test;
+namespace MsgOwl\MsgowlLaravelNotificationChannel\Test;
 
-use BoringDragon\MsgowlLaravelNotificationChannel\MsgOwlMessage;
+use MsgOwl\MsgowlLaravelNotificationChannel\MsgOwlMessage;
 use PHPUnit\Framework\TestCase;
 
 class MsgOwlMessageTest extends TestCase

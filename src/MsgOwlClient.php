@@ -1,8 +1,8 @@
 <?php
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel;
+namespace MsgOwl\MsgowlLaravelNotificationChannel;
 
-use BoringDragon\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
+use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\CouldNotSendNotification;
 use Exception;
 use GuzzleHttp\Client;
 

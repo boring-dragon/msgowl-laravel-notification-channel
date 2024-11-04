@@ -1,8 +1,8 @@
 <?php
 
-namespace BoringDragon\MsgowlLaravelNotificationChannel;
+namespace MsgOwl\MsgowlLaravelNotificationChannel;
 
-use BoringDragon\MsgowlLaravelNotificationChannel\Exceptions\InvalidConfiguration;
+use MsgOwl\MsgowlLaravelNotificationChannel\Exceptions\InvalidConfiguration;
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
 

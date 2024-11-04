@@ -24,18 +24,18 @@
 
     "autoload": {
         "psr-4": {
-            "BoringDragon\\MsgowlLaravelNotificationChannel\\": "src/"
+            "MsgOwl\\MsgowlLaravelNotificationChannel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BoringDragon\\MsgowlLaravelNotificationChannel\\Test\\": "tests"
+            "MsgOwl\\MsgowlLaravelNotificationChannel\\Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "BoringDragon\\MsgowlLaravelNotificationChannel\\MsgOwlServiceProvider"
+                "MsgOwl\\MsgowlLaravelNotificationChannel\\MsgOwlServiceProvider"
             ]
         }
     }
